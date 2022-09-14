@@ -18,6 +18,10 @@ body {
   font-family: "VT323", monospace;
   font-weight: 300;
   font-size: 1.5rem;
+  background-image: url("/Web_Notebook/images/background-to-do-list.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: var(--clr-primary);
   color: var(--clr-fonts);
   display: grid;

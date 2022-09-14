@@ -11,6 +11,7 @@
   *::after {
     font-family: inherit;
     box-sizing: border-box;
+    
   }
   
   body {
@@ -18,9 +19,12 @@
     font-family: "VT323", monospace;
     font-weight: 300;
     font-size: 1.5rem;
+    background-image:url("/Web_Notebook/images/background-to-do-list.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     background-color: var(--clr-primary);
     color: var(--clr-fonts);
-  
     display: grid;
     grid:
       "header header header header" auto
@@ -28,9 +32,6 @@
       1fr minmax(200px, 300px) minmax(250px, 300px) 1fr;
   }
   
-  @media screen and (max-width: 768px){
-    
-  }
 
   .title {
     grid-area: header;
